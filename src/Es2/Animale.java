@@ -12,12 +12,10 @@
 package Es2;
 
 public abstract class Animale implements Interface {
-	private String verso;
-	private String dieta;
+	protected String verso;
+	protected String dieta;
 	
-	public Animale(String verso, String dieta) {
-		this.verso = verso;
-		this.dieta = dieta;
+	public Animale() {
 	}
 //			METODI
 	@Override

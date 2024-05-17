@@ -2,8 +2,9 @@ package Es2;
 
 public class Cane extends Animale{
 
-	public Cane(String verso, String dieta) {
-		super(verso, dieta);
+	public Cane() {
+		this.verso = "abbaio";
+		this.dieta = "onnivora";
 	}
 	
 	@Override

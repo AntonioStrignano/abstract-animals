@@ -6,22 +6,22 @@ public class Main {
 		
 		
 		System.out.println("======CANE======");
-		Animale cane = new Cane ("abbaio", "onnivora");
+		Animale cane = new Cane ();
 		cane.dormi();
 		cane.verso();
 		cane.mangia();
 		System.out.println("================\n===PASSEROTTO===");
-		Animale pass = new Passerotto ("cinguettio", "fiocchi d'avena, noci e nocciole, uvette e frutta");
+		Animale pass = new Passerotto ();
 		pass.dormi();
 		pass.verso();
 		pass.mangia();
 		System.out.println("================\n=====AQUILA=====");
-		Animale aquila = new Aquila("strido", "piccoli e medi mammiferi");
+		Animale aquila = new Aquila();
 		aquila.dormi();
 		aquila.verso();
 		aquila.mangia();
 		System.out.println("================\n=====DELFINO====");
-		Animale delf = new Delfino("fischio", "pesci, calamari e crostacei");
+		Animale delf = new Delfino();
 		delf.dormi();
 		delf.verso();
 		delf.mangia();

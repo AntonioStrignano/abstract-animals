@@ -2,9 +2,9 @@ package Es2;
 
 public class Aquila extends Animale implements Volatile{
 
-	public Aquila(String verso, String dieta) {
-		super(verso, dieta);
-		// TODO Auto-generated constructor stub
+	public Aquila() {
+		verso = "strido";
+		dieta = "piccoli e medi mammiferi";
 	}
 	@Override
 	public void verso() {

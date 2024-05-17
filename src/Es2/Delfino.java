@@ -2,9 +2,9 @@ package Es2;
 
 public class Delfino extends Animale implements Nuotante{
 
-	public Delfino(String verso, String dieta) {
-		super(verso, dieta);
-		// TODO Auto-generated constructor stub
+	public Delfino() {
+		verso = "fischio";
+		dieta = "pesci, calamari e crostacei";
 	}
 	@Override
 	public void verso() {
