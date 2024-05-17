@@ -26,18 +26,18 @@ public class Main {
 		delf.verso();
 		delf.mangia();
 		System.out.println("================");
-		faiVolare(aquila);
-		faiVolare(pass);
-		faiNuotare(delf);
+		faiVolare((Volatile) aquila);
+		faiVolare((Volatile) pass);
+		faiNuotare((Nuotante) delf);
 		
 		
 		
 	}
 
-	private static void faiVolare(Animale animale) {
+	private static void faiVolare(Volatile animale) {
 		animale.vola();
 	}
-	private static void faiNuotare(Animale animale) {
+	private static void faiNuotare(Nuotante animale) {
 		animale.nuota();
 	}
 }

@@ -1,6 +1,6 @@
 package Es2;
 
-public class Aquila extends Animale{
+public class Aquila extends Animale implements Volatile{
 
 	public Aquila(String verso, String dieta) {
 		super(verso, dieta);

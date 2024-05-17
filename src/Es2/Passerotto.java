@@ -1,6 +1,6 @@
 package Es2;
 
-public class Passerotto extends Animale{
+public class Passerotto extends Animale implements Volatile{
 
 	public Passerotto(String verso, String dieta) {
 		super(verso, dieta);

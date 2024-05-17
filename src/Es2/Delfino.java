@@ -1,6 +1,6 @@
 package Es2;
 
-public class Delfino extends Animale{
+public class Delfino extends Animale implements Nuotante{
 
 	public Delfino(String verso, String dieta) {
 		super(verso, dieta);

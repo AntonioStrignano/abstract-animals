@@ -28,8 +28,7 @@ public abstract class Animale implements Interface {
 	public void mangia() {
 		System.out.println("La mia dieta è: " + dieta);
 	}
-	public void vola() {}
-	public void nuota() {}
+
 	
 
 //			GETTER E SETTER
