@@ -26,9 +26,14 @@ public class Main {
 		delf.verso();
 		delf.mangia();
 		System.out.println("================");
-		faiVolare((Volatile) aquila);
-		faiVolare((Volatile) pass);
+		Volatile aquila2 = new Aquila();
+		faiVolare(aquila2);
+		Volatile pass2 = new Passerotto();
+		faiVolare(pass2);
 		faiNuotare((Nuotante) delf);
+		// anche se e' lo stesso oggetto modificato di tipo, ma rimane coerente in quanto Delfino, quindi sia un Animale per heritage della classe
+		// e Nuotante per l'interfaccia Nuotante implementato in Delfino.
+		// creare un nuovo delfino vuol dire creare un oggetto Delfino, figlio di Animale e implementato con Nuotante
 		
 		
 		
